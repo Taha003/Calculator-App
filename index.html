@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator App</h1>
+   <div class="main">
+    <input type="text" id="display" size="12">
+    <div class="r1">
+        <button onclick="calc('1')" class="but" value="1">1</button>
+        <button onclick="calc('2')" class="but" value="2">2</button>
+        <button onclick="calc('3')" class="but" value="3">3</button>
+        <button onclick="calc('+')" class="but" value="+">+</button>
+      
+    </div>
+    <div class="r1">
+        <button onclick="calc('4')" class="but" value=4>4</button>
+        <button onclick="calc('5')" class="but" value="5">5</button>
+        <button onclick="calc('6')" class="but" value="6">6</button>
+        <button onclick="calc('-')" class="but" value="-">-</button>
+    </div>
+    <div class="r1">
+        <button onclick="calc('7')" class="but" value="7">7</button>
+        <button onclick="calc('8')" class="but" value="8">8</button>
+        <button onclick="calc('9')" class="but" value="9">9</button>
+        <button onclick="calc('*')" class="but" value="*">*</button>
+    </div>
+    <div class="r1">
+        <button onclick="calc('0')" class="but" value="0">0</button>
+        <button onclick="clearAll()" class="but" value="c">c</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="calc('/')" class="but" value="/">/</button>
+        <button onclick="remove()" class="rem">&larr;</button>
+    </div>
+   </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+.main{
+    border: 1px solid black;
+    max-width: 450px;
+    margin: auto;
+    width:115px;
+    height: 170px;
+    padding: 7px;
+    margin-top:50px;
+    background-color: lightblue;
+    border-radius: 7px;
+}
+.display{
+    border:1px solid gray;
+    height: 30px;
+    padding: 7px;
+    text-align: center;
+    width:100px;
+    background-color: beige;
+    border-radius: 7px;
+}
+.r1{
+text-align: center;
+padding: 2px;
+/* border: none; */
+}
+
+#equal{
+    background-color: red;
+    cursor: pointer;
+
+}
+
+button{
+    border-radius: 7px;
+    margin-top: 3px;
+
+}
+button:hover{
+    background-color: lightcoral;
+}
+
+@media screen and (min-width: 120px){
+    div.main{
+        margin: auto;
+    }
+}
+.clear{
+    margin-left: 80px;
+    margin-top: 3px;
+}
+
+.rem{
+    margin:2px;
+    margin-right: 75px;
+}
+
+#display{
+    padding: 7px 0px 7px 0px;
+    border-radius: 7px;
+    border:none ;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
